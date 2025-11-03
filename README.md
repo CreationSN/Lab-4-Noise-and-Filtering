@@ -52,7 +52,7 @@ Q2. Why does linear filtering blur edges more?
 Q3. How could we design adaptive filters to preserve detail?
 → Adaptive filters change their behavior based on the local area. For example, they can reduce noise in flat areas but keep details near edges. Bilateral filters and adaptive median filters are examples that can keep edges sharp.
 
-7. Conclusion
+Conclusion
 
 In this lab, I successfully added and removed different types of noise.
 I learned how to use MATLAB functions like imnoise, imfilter, and medfilt2.
